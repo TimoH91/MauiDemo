@@ -13,7 +13,7 @@
 
             var navPage2 = new NavigationPage(new StackLayoutPageDemo());
 
-            MainPage = navPage2;
+            MainPage = new NavigationPage(new GridLayoutDemo());
         }
     }
 }
