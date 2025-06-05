@@ -63,6 +63,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="StackLayoutPageDemo.xaml.cs">
+	    <DependentUpon>StackLayoutPageDemo.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="TabbedPageDemo.xaml.cs">
 	    <DependentUpon>TabbedPageDemo.xaml</DependentUpon>
 	  </Compile>
@@ -73,6 +76,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MinhaPagina.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="StackLayoutPageDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="TabbedPageDemo.xaml">
