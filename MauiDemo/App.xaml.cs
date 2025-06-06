@@ -13,9 +13,10 @@
 
             var navPage2 = new NavigationPage(new StackLayoutPageDemo());
             var navPage3 = new NavigationPage(new GridLayoutDemo());
+            var navPage4 = new NavigationPage(new FlexLayoutDemo());
 
-            MainPage = new NavigationPage(new FlexLayoutDemo());
-            
+            MainPage = new NavigationPage(new AbsoluteLayoutDemo());
+           
         }
     }
 }
